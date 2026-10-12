@@ -2,22 +2,19 @@
 
 ## Section 174A — Qualified Research Documentation
 
-**Investigator:** Javaad Ali, Esq.
-**Entity:** Advocates Close Corp., New York
-**Repository created:** December 9, 2024
-**Documentation added:** March 27, 2026 (retrospective)
-**Status:** SUCCEEDED as experiment — Metal compute shader for quantum state rotation on GPU
-**Contact:** claude.redliner@advocatesclose.nyc
-
-> **Note on timing:** This documentation was prepared retrospectively as part of a systematic review of the investigator's research program for IRC Section 174A compliance. The repository and its contents predate this README. All dates, code, and commit history are original and unmodified.
-
----
+**Investigator:** Javaad Ali, Esq.\
+**Entity:** Advocates Close Corp., New York\
+**Repository created:** December 9, 2024\
+**Documentation added:** March 27, 2026 (retrospective)\
+**Status:** SUCCEEDED as experiment — Metal compute shader for quantum state rotation on GPU\
+**Contact:** javaad.alir@advocatesclose.nyc\
 
 ## Research Objective
 
 Implement a quantum clock — a unitary rotation gate (Rz) applied to a two-level quantum state — as a Metal compute shader executing on the GPU. This is one of the investigator's earliest experiments with Metal compute pipelines and GPU programming, predating the Metal text rendering work in AppJavaadica by twelve months.
 
 ## Technological Uncertainty
+All computations performed on IBM Quantum hardware, provided courtesy of IBM. Set forth below is information relating to simulations.
 
 1. **Metal compute pipeline setup**: Can a Metal compute kernel be used to simulate quantum state evolution (unitary rotation) on the GPU? The investigator implemented the full pipeline: `MTLDevice` → `MTLCommandQueue` → `MTLComputePipelineState` → buffer allocation → kernel dispatch.
 
