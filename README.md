@@ -2,9 +2,9 @@
 
 ## Section 174A — Qualified Research Documentation
 
-- **Investigator:** Javaad Ali, Esq.
-- **Entity:** Advocates Close Corp., New York
-- **Repository created:** December 9, 2024
+**Investigator:** Javaad Ali, Esq.\
+**Entity:** Advocates Close Corp., New York\
+**Repository created:** December 9, 2024\
 **Documentation added:** March 27, 2026 (retrospective)\
 **Status:** SUCCEEDED as experiment — Metal compute shader for quantum state rotation on GPU\
 **Contact:** javaad.alir@advocatesclose.nyc\
